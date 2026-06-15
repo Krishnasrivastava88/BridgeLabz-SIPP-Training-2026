@@ -17,23 +17,15 @@ public class SpyAgency {
     }
 
     static boolean isPalindrome(String s) {
-
-        int l = 0;
-        int r = s.length() - 1;
-
-        while (l < r) {
-            if (s.charAt(l) != s.charAt(r)) {
-                return false;
-            }
-
-            l++;
-            r--;
+        String rev = "";
+        for (int i = s.length() - 1; i >= 0; i--) {
+            rev += s.charAt(i);
         }
 
-        return true;
+        return rev.equals(s);
     }
 
-    static void countVC(String s) {
+    static void countVC(String s) {w
 
         int v = 0;
         int c = 0;
