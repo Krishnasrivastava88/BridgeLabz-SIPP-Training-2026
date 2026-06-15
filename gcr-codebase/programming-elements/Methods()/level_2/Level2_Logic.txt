@@ -1,0 +1,55 @@
+LEVEL 2 PRACTICE PROGRAMS - LOGIC ONLY
+
+1. Factors of a Number
+- Find factors
+- Store in array
+- Find sum, product, sum of squares
+
+2. Sum of Natural Numbers
+- Recursive sum
+- Formula: n(n+1)/2
+- Compare results
+
+3. Leap Year
+- Year >= 1582
+- Divisible by 4 and not 100 OR divisible by 400
+
+4. Unit Converter
+- km <-> miles
+- meters <-> feet
+
+5. Unit Converter
+- yards <-> feet
+- meters <-> inches
+- inches <-> meters
+- inches <-> cm
+
+6. Unit Converter
+- Fahrenheit <-> Celsius
+- pounds <-> kilograms
+- gallons <-> liters
+
+7. Student Vote Checker
+- Age >= 18 => Can Vote
+- Negative age => Invalid
+
+8. Youngest and Tallest Friend
+- Minimum age
+- Maximum height
+
+9. Number Analysis
+- Positive/Negative
+- Even/Odd
+- Compare first and last elements
+
+10. BMI
+- BMI = weight/(height in meter)^2
+- Determine BMI status
+
+11. Quadratic Equation
+- Discriminant = b² - 4ac
+- >0 two roots, =0 one root, <0 no real roots
+
+12. Random Numbers
+- Generate 5 random 4-digit numbers
+- Find average, minimum, maximum
