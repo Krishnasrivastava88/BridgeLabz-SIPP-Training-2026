@@ -1,0 +1,1 @@
+class ThirdMaximumNumber414{}
