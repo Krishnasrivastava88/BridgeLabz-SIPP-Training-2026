@@ -1,0 +1,1 @@
+class Solution{public boolean canMeasureWater(int x,int y,int t){if(t>x+y)return false;if(x==0||y==0)return t==0||t==x+y;return t%gcd(x,y)==0;}int gcd(int a,int b){return b==0?a:gcd(b,a%b);}}
