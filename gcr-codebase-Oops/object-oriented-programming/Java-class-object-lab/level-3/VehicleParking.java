@@ -1,0 +1,1 @@
+class Vehicle{String vehicleNumber,ownerName,vehicleType;Vehicle(String v,String o,String t){this.vehicleNumber=v;this.ownerName=o;this.vehicleType=t;}}

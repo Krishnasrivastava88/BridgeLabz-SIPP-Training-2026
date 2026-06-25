@@ -1,0 +1,13 @@
+Design Problems:
+1603 Design Parking System
+705 Design HashSet
+706 Design HashMap
+535 Encode and Decode TinyURL
+380 Insert Delete GetRandom O(1)
+1396 Design Underground System
+1472 Design Browser History
+1656 Design an Ordered Stream
+3242 Design Neighbor Sum Service
+3484 Design Spreadsheet
+1797 Design Authentication Manager
+1912 Design Movie Rental System

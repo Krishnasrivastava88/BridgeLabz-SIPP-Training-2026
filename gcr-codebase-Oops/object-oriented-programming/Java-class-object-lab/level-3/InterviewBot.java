@@ -1,0 +1,1 @@
+class InterviewBot{String botName,technology;InterviewBot(String botName,String technology){this.botName=botName;this.technology=technology;}void conductInterview(){System.out.println(botName+" interviewing for "+technology);}}

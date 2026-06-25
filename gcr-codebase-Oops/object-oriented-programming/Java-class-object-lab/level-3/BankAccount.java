@@ -1,0 +1,1 @@
+class BankAccount{static int totalAccounts=0;String accountNumber,holder;double balance;BankAccount(String a,String h,double b){accountNumber=a;holder=h;balance=b;totalAccounts++;}void deposit(double x){balance+=x;}void withdraw(double x){if(x<=balance)balance-=x;}void getStatement(){System.out.println(holder+" "+balance);}}
