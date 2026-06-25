@@ -1,0 +1,3 @@
+class Person{String name;Person(String n){name=n;}public String toString(){return "Person: "+name;}}
+class Student extends Person{final int studentId;double gpa;Student(String n,int id,double g){super(n);studentId=id;gpa=g;}public String toString(){return super.toString()+" GPA:"+gpa;}}
+class GradStudent extends Student{String thesis;GradStudent(String n,int id,double g,String t){super(n,id,g);thesis=t;}public String toString(){return super.toString()+" Thesis:"+thesis;}}
