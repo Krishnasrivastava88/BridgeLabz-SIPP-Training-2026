@@ -1,0 +1,6 @@
+290 Word Pattern
+292 Nim Game
+306 Additive Number
+313 Super Ugly Number
+316 Remove Duplicate Letters
+319 Bulb Switcher
