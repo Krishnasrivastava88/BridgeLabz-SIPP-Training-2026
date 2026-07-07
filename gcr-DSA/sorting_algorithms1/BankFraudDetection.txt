@@ -1,0 +1,1 @@
+Modified Merge Sort counting pairs amount[i] > 3*amount[j].

@@ -1,0 +1,1 @@
+Use Merge Sort inversion-style counting of pairs where left score < right score.
