@@ -1,0 +1,1 @@
+Use Bubble Sort and Insertion Sort, count swaps, detect already sorted, find top-3 scores, and trace passes for [64,25,12,22,11].
