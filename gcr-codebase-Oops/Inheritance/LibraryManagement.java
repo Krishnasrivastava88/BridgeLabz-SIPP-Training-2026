@@ -1,2 +1,0 @@
-class Book{String title;int publicationYear;Book(String t,int y){title=t;publicationYear=y;}}
-class Author extends Book{String name,bio;Author(String t,int y,String n,String b){super(t,y);name=n;bio=b;}void displayInfo(){System.out.println(title+" "+publicationYear+" "+name);}}

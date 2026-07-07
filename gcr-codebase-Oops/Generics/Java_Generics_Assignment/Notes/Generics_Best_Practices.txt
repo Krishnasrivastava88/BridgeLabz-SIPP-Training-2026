@@ -1,9 +1,0 @@
-Type safety
-Generic methods
-Upper/Lower bounded wildcards
-Avoid raw types
-Bounded type parameters
-Generic interfaces
-Avoid type erasure pitfalls
-Composition over inheritance
-Keep generics simple

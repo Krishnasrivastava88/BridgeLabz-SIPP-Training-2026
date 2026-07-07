@@ -1,1 +1,0 @@
-class WaterBottle{String ownerName;int dailyTarget;WaterBottle(String ownerName,int dailyTarget){this.ownerName=ownerName;this.dailyTarget=dailyTarget;}void displayBottleInfo(){System.out.println(ownerName+" "+dailyTarget);}}

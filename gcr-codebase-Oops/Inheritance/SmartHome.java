@@ -1,2 +1,0 @@
-class Device{String deviceId,status;Device(String i,String s){deviceId=i;status=s;}}
-class Thermostat extends Device{int temperatureSetting;Thermostat(String i,String s,int t){super(i,s);temperatureSetting=t;}void displayStatus(){System.out.println(status+" "+temperatureSetting);}}

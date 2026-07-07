@@ -1,1 +1,0 @@
-class Drone{static String companyName="SkyLogistics";String droneId;int batteryPercentage;Drone(String droneId,int batteryPercentage){this.droneId=droneId;this.batteryPercentage=batteryPercentage;}void startDelivery(){}void displayStatus(){System.out.println(droneId+" "+batteryPercentage+" "+companyName);}}

@@ -1,1 +1,0 @@
-class Solution{public boolean isPerfectSquare(int n){long l=1,r=n;while(l<=r){long m=(l+r)/2,s=m*m;if(s==n)return true;if(s<n)l=m+1;else r=m-1;}return false;}}

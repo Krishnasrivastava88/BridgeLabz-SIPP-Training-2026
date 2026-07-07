@@ -1,3 +1,0 @@
-class Course{String courseName;int duration;Course(String c,int d){courseName=c;duration=d;}}
-class OnlineCourse extends Course{String platform;boolean isRecorded;OnlineCourse(String c,int d,String p,boolean r){super(c,d);platform=p;isRecorded=r;}}
-class PaidOnlineCourse extends OnlineCourse{double fee,discount;PaidOnlineCourse(String c,int d,String p,boolean r,double f,double dis){super(c,d,p,r);fee=f;discount=dis;}}

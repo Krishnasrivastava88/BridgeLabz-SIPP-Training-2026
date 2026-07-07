@@ -1,1 +1,0 @@
-import java.util.*;class Solution{public int[] intersect(int[] a,int[] b){HashMap<Integer,Integer> m=new HashMap<>();for(int x:a)m.put(x,m.getOrDefault(x,0)+1);ArrayList<Integer> l=new ArrayList<>();for(int x:b)if(m.getOrDefault(x,0)>0){l.add(x);m.put(x,m.get(x)-1);}int[] r=new int[l.size()];for(int i=0;i<l.size();i++)r[i]=l.get(i);return r;}}

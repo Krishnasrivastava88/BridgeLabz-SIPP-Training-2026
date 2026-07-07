@@ -1,1 +1,0 @@
-class ChargingStation{static int totalStations=0;static double electricityRate=8;String stationId;double unitsConsumed;ChargingStation(String stationId,double units){this.stationId=stationId;this.unitsConsumed=units;totalStations++;}double calculateBill(){return unitsConsumed*electricityRate;}void displayStationDetails(){System.out.println(stationId+" "+calculateBill());}}
