@@ -1,0 +1,1 @@
+public class Search2DMatrix{public static boolean searchMatrix(int[][]m,int t){int rows=m.length,cols=m[0].length,l=0,r=rows*cols-1;while(l<=r){int mid=l+(r-l)/2;int v=m[mid/cols][mid%cols];if(v==t)return true;if(v<t)l=mid+1;else r=mid-1;}return false;}}
